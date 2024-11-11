@@ -1,5 +1,8 @@
 * {
     font-family: "Lexend", sans-serif;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 ul {
     list-style: none;
@@ -27,15 +30,21 @@ a {
     color: black;
     padding: 25px;
     border-radius: 20px;
-}
-
-a:hover {
-    color: rgb(55, 92, 255);
     transition: 0.3s;
 }
 
+.scl:hover {
+    color: rgb(55, 92, 255);
+    transition: 0.3s;
+    transform: scale(1.3);
+}
 
-@media ( max-width:700px) {
+p:hover {
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+@media ( max-width:714px) {
     nav {
         flex-direction: column;
     }
@@ -125,4 +134,9 @@ span {
 .wd {
     font-size: 30px;
     color: rgb(44, 44, 44);
+}
+
+
+body {
+    overflow-x: hidden;
 }
