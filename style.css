@@ -1,6 +1,5 @@
 * {
     font-family: "Lexend", sans-serif;
-    overflow-x: hidden;
 }
 ul {
     list-style: none;
@@ -36,7 +35,7 @@ a:hover {
 }
 
 
-@media ( max-width:414px) {
+@media ( max-width:700px) {
     nav {
         flex-direction: column;
     }
@@ -59,7 +58,7 @@ a:hover {
         margin-bottom: 30px;
     }
     .logodiv {
-        width: 414px;
+        width: 700px;
         background-color: white;
     }
 
